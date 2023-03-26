@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bt10-register</title>
+</head>
+<body>
+<div align="center">
+<h2>BÀI KIỂN TRA CHƯƠNG 2</h2>
+<p><b>Môn học: </b><i>Ứng dụng Web</i></p>
+<p><b>Mã số sinh viên: </b><i>12355</i></p>
+<p><b>Họ và tên: </b><i>Nguyễn Văn A</i></p>
+<hr width=100% style="color:blue; height:2px; border-width:0; background-color:blue">
+</div>
+<div style="display:inline">
+<h5><a href="bt10-index.html"/>Trang chủ</a></h5>
+<h5><a href="bt10-content.html"/>Nội dung môn học</a></h5>
+<h5><a href="bt10-register.html"/>Đăng ký</a></h5>
+</div>
+<h2>ĐĂNG KÝ THAM GIA DIỄN ĐÀN</h2>
+<form>
+	<label for="Uname">Tên đăng nhập:</label> 
+	<input type="text" id="Uname" name="txtTendn"/>
+	<br>
+	<label for="Pwd">Mật khẩu:</label> 
+	<input type="password" id="Pwd" name="txtMatkhau"/>
+	<br>
+	Giới tính:
+	<input type="radio" name="sex" value="Nam" checked>Nam 
+	<input type="radio" name="sex" value="Nữ" checked>Nữ
+	<br>
+	Email:
+	<input type="text" name="txtEmail">
+	<br>
+	Ngôn ngữ lập trình yêu thích nhất
+	<select name="selColor">
+		<option value="C++">C++</option>
+		<option value="C#">C#</option>
+		<option value="PHP">PHP</option>
+		<option value="Java">Java</option>
+		<option value="Python">Python</option>
+	</select>
+	<br>
+	Quy định khi tham gia diễn đàn
+	<textarea rows="5" cols="50"></textarea>
+	<br>
+	<button type="register">Đăng ký</button>
+	<button type="reset">Hủy</button>
+</form>
+</body>
+</html>
